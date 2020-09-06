@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accessories</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<style type="text/css">
+				*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+
+  font-family: montserrat;
+}
+nav{
+  background: rgb(31,30,30);
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: #f23434;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f23434;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+ /* background: #1b9bff;*/
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 600px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+.gohome{
+	color: #f23434;
+	font-size: 34px;
+	margin-left: 5%;
+	margin-top:50%;
+
+}
+
+@media (max-width: 760px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+/*section{
+  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}*/
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+/*section{
+  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
+  background-size: 100%;
+  height: calc(100vh - 80px);
+}*/
+		/*-------------------------------------nav ends-------------------*/
+		.flex2{
+		display: flex;
+		flex-direction: row;
+		width: 98%;
+		border:1.5px solid #fff;
+		border-radius: 1px solid #ccc;
+		margin :0%;
+		margin-left: 1.5%;
+		padding: 1%;
+		box-shadow: 3px 3px 3px #fff;
+		size: 96%;
+		box-sizing: border-box;
+		
+	}
+	.sec1,.sec2,.sec3,.sec4{
+		color: #000;
+		width: 24%;
+		border:1px solid #ccc;
+		padding: 1%;
+		background-color: #f7f1e3 ;
+		font-size: 18px;
+		text-align: center;
+	}
+	.t1,.t2,.t3,.t4{
+		width: 24%;
+		border:1px solid #ccc;
+		padding: 1%;
+		background-color: #ECF0F0 ;
+		color: #000;
+		font-size: 18px;
+		text-align: center;
+	}
+	.img1 img{
+		width: 100%;
+	
+		border:1px #ccc;
+		border-style: ridge;
+	}
+	.img1{
+		border-radius: 30px;
+		border:2px #ccc;
+
+	}
+	.btn{
+		background-color: #f23434;
+		border-radius: 5%;
+		color: #fff;
+		font-size: 18px;
+		padding:2%;
+		border:none;
+	}
+	.btn:hover{
+		background-color: #fff;
+		color: #666;
+		border: 1px solid #000;
+		cursor: pointer;
+	}
+		
+	</style>
+</head>
+<body>
+	<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">LYKAA'S</label>
+      <ul>
+        <li><a class="active" href="C:\Users\Hima Bindu\Documents\New folder\websessions\homelyka.html">Home</a></li>
+        <li><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\products.html">Our Products</a></li>
+        <li><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\about.html">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\login.html">Login</a></li>
+      </ul>
+    </nav>
+    <!--------------------------nav til here----------------->
+	<a  class="gohome" href="C:\Users\Hima Bindu\Documents\New folder\websessions\products.html"><i class='fas fa-arrow-alt-circle-left'></i></a>
+
+  	<div class="flex2">
+  		<div class="sec1">
+  			<div class="img1">
+  				<img src="https://product.koovs.com/84053_7ad13c9c18bd26c017dc7cdfcb9ec66d.webp"><h3><center><b>$299</b></center></h3><p>Metal Tattoo Chokers (Set Of 2)</p><br><button class="btn">Add to cart</button>
+  			</div>
+  		</div>
+  		<div class="sec2" style="margin-left: 1%">
+  			<div class="img1">
+  				<img src="https://product.koovs.com/117390_847bdc89e5dcadab7067c5e1cc90b81e.webp"><h3><center><b>$319</b></center></h3><p>Two-Way Sequin Clutch</p><br><button class="btn">Add to cart</button>
+  			</div>
+  		</div>
+  		<div class="sec3" style="margin-left: 1%">
+  			<div class="img1">
+  				<img src="https://product.koovs.com/125916_b043fb06c629cd233bab4e08e7b5ba24.webp"><h3><center><b>$489</b></center></h3><p>Crocskin Texture Belt</p><br><button class="btn">Add to cart</button>
+  			</div>
+  		</div>
+  		<div class="sec4" style="margin-left: 1%">
+  			<div class="img1">
+  				<img src="https://product.koovs.com/111990_25487a184ba75db5fd518365b2eff26c.webp"><h3><center><b>$299</b></center></h3><p>Gold Rimmed Cateye Sunglasses</p><br><button class="btn">Add to cart</button>
+  			</div>
+  		</div>
+  	</div>
+
+  
+
+  	<div class="flex2">
+  		<div class="sec1">
+  			<div class="img1">
+  				<img src="https://product.koovs.com/83217_c951a38a67e63379dce2471e4cd32cb8.webp"><h3><center><b>$179</b></center></h3><p>Slogan Choker</p><br><button class="btn">Add to cart</button>
+  			</div>
+  		</div>
+  		<div class="sec2" style="margin-left: 1%">
+  			<div class="img1">
+  				<img src="https://product.koovs.com/119714_f67cafc00368f2a0224c6ab7d424c5f7.webp"><h3><center><b>$259</b></center></h3><p>Eyebrow Detail Cateye Sunglasses</p><br><button class="btn">Add to cart</button>
+  			</div>
+  		</div>
+  		<div class="sec3" style="margin-left: 1%">
+  			<div class="img1">
+  				<img src="https://product.koovs.com/133696_cc34248799b266b252b2408cad07207b.webp"><h3><center><b>$399</b></center></h3><p>Lion Hardware Detail Quilted Sling Bag</p><br><button class="btn">Add to cart</button>
+  			</div>
+  		</div>
+  		<div class="sec4" style="margin-left: 1%">
+  			<div class="img1">
+  				<img src="https://product.koovs.com/127490_5bf89c53d84f6a7bfe13ee07569649e0.webp"><h3><center><b>$299</b></center></h3><p>Diamante Embellished Drop Earrings</p><br><button class="btn">Add to cart</button>
+  			</div>
+  		</div>
+  	</div>
+
+</body>
+</html>

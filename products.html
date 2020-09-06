@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our products</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<style type="text/css">
+		*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  background: rgb(31,30,30);
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: #f23434;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f23434;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+ /* background: #1b9bff;*/
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 600px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+.gohome{
+	color: #f23434;
+	font-size: 34px;
+	margin-left: 5%;
+	margin-top:50%;
+
+}
+.productbox{
+		width: 90%;
+		padding-left: 2px;
+		margin-bottom: 5%;
+		padding-bottom: 2px;
+
+	}
+	.productlist1{
+		width: 70%;
+		padding-left: 10%;
+		
+	}
+
+@media (max-width: 760px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .productbox{
+		width: 90%;
+		padding-left: 2px;
+		margin-bottom: 5%;
+		padding-bottom: 2px;
+
+	}
+	.productlist1{
+		width: 70%;
+		padding-left: 10%;
+		
+	}
+}
+/*section{
+  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}*/
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+/*section{
+  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
+  background-size: 100%;
+  height: calc(100vh - 80px);
+}*/
+		/*-------------------------------------nav ends-------------------*/
+.productlist{
+	max-width: 1200px;
+	padding: 30px 15px;
+	
+	margin: 0 auto;
+
+
+}
+.productlist h1{
+	float:left;
+	font-weight: 500;
+	font-size: 2rem;
+	color:rgb(56,56,56);
+	
+}
+.productlist h4{
+	float: right;
+	color: #f23434;
+	font-weight: 700;
+}
+.productlist hr{
+	clear: both;
+	height: 1px;
+	background-color: rgb(219,214,214);
+	border: none
+
+}
+.productlist1{
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 130px;
+
+}
+.productbox{
+	width: 26.5%;
+	float: left;
+	margin: 1%;
+	padding-bottom: 23px;
+	padding-top: 9px;
+	border:1px solid rgb(219,214,214);
+	box-shadow: 0 0 10px #000;
+}
+.pic1{
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+.productbox h2{
+	float:right;
+	padding-right: 5%;
+	color: rgb(71,70,70);
+}
+.productbox p{
+	clear:both;
+	padding: 0.5%;
+	color: rgb(122,120,120);
+	font-size: 1rem;
+	line-height: 25px;
+}
+	</style>
+</head>
+<body>
+	<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">LYKAA'S</label>
+      <ul>
+        <li><a class="active" href="C:\Users\Hima Bindu\Documents\New folder\websessions\homelyka.html">Home</a></li>
+        <li><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\products.html">Our Products</a></li>
+        <li><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\about.html">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\login.html">Login</a></li>
+      </ul>
+    </nav>
+    <!--------------------------nav til here----------------->
+    <div class="productlist clearfix">
+		<h1>latest products</h1>
+		<br>
+
+		<h4>View All products</h4>
+		<hr>
+		<div class="productlist1">
+			<div class="productbox clearfix">
+				<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\denimlykaa.html"><img src="https://product.koovs.com/home-WW-2-xD828z.webp" alt="product" class="pic1"></a>
+				
+			</div>
+			<div class="productbox clearfix">
+				<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\shoeslyka.html"><img src="https://product.koovs.com/home-WW-5-IpfMpq.webp" alt="product" class="pic1"></a>
+			</div>
+			<div class="productbox clearfix">
+				<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\dresseslyka.html"><img src="https://product.koovs.com/home-WW-3-CMAX8r.webp" alt="product" class="pic1"></a>
+				
+			</div>
+		</div>
+		<div class="productlist1 clearfix">
+			<div class="productbox">
+			<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\topslykaa.html"><img src="https://product.koovs.com/home-WW-4-61LLuH.webp" alt="product" class="pic1"></div>
+				
+			<div class="productbox clearfix">
+			<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\accessorieslykaa.html"><img src="https://product.koovs.com/home-WW-1-fMFyat.webp" alt="product" class="pic1"></a>
+				
+			</div>
+			<div class="productbox clearfix">
+			<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\jacketslykaa.html"><img src="https://product.koovs.com/home-MW-3-WXDGZU.webp" alt="product" class="pic1"></a>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

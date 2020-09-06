@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login form</title>
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+	<style type="text/css">
+		.gohome{
+	color: #f23434;
+	font-size: 34px;
+	margin-left: 10%;
+	margin-top:50%;
+
+}
+		.show-btn{
+	background: #f23434;
+	color: #fff;
+	cursor: pointer;
+	padding:30px 36px;
+	padding-bottom: 20px;
+	padding-top:76px;
+	padding-left: 26px;
+	font-size: 20px;
+
+}
+#show{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.center i{
+	position: absolute;
+	padding-left: 6px;
+
+}
+.show-btn{
+	position: absolute;
+	top:1.4%;
+	left: 96%;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.container{
+
+	background: #fff;
+	width: 410px;
+	padding:30px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+
+}
+.container .close-btn{
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	font-size: 18px;
+	cursor:pointer;
+
+
+}
+.container .close-btn:hover{
+	color:#f23434;
+}
+
+.container .text{
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+
+}
+.container form{
+	margin-top:-20px;
+}
+.container form .data{
+	height: 45px;
+	width: 100%;
+	margin:40px 0;
+
+}
+form .data label{
+	font-size: 18px;
+}
+form .data input{
+	height: 100%;
+	width: 100%;
+	padding-left: 6px;
+	padding-bottom: 3px;
+	font-size: 17px;
+	border:2px solid silver;
+
+}
+form .data input:focus{
+	border-bottom-width: 2px;
+	border-color:#3498db;
+}
+form .forgotpw{
+	margin-top: 8px;
+	font-size: 15px;
+}
+form .forgotpw a{
+	text-decoration: none;
+	color:#f23434;
+	margin-top:5px;
+}
+form .forgotpw a:hover{
+	text-decoration: underline;
+}
+form .signup-link{
+	text-align: center;
+	font-size: 15px;
+}
+form .signup-link a{
+	text-decoration: none;
+	color:#f23434;
+}
+form .signup-link a:hover{
+	text-decoration: underline;
+}
+form .btn{
+	margin:30px 0;
+	height:45px;
+	width:100%;
+	position: relative;
+	overflow: hidden;
+	z-index: -1;
+}
+form .btn .inner{
+	height: 100%;
+	width: 300%;
+	position: absolute;
+	left:-100%;
+	background: #f23434;
+	transition:0.4s;
+}
+form .btn:hover .inner{
+	left: 0;
+
+}
+form .btn  button{
+	height: 100%;
+	width: 100%;
+	background: none;
+	border:none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	padding-bottom: 4px;
+
+}
+	</style>
+</head>
+<body>
+	<a name="login"></a>
+	<br><br><br>
+	<div class="center">
+		<a  class="gohome" href="C:\Users\Hima Bindu\Documents\New folder\websessions\homelyka.html"><i class='fas fa-arrow-alt-circle-left'></i></a>
+		
+		<div class="container">
+			<label for="" class="close-btn fas fa-times"></label>
+			<div class="text">Login form</div>
+				<form action="#">
+					<div class="data">
+						<label>Email or Phone</label>
+						<input type="text" required name="">
+						
+					</div>
+					<div class="data">
+						<label>Password</label>
+						<input type="Password" required name="">
+						
+					</div>
+					
+					<div class="forgotpw"><a href="">Forgot Password?</a></div>
+					<div class="btn">
+						<div class="inner">
+							
+						
+						<button type="submit">Login</button>
+					</div>
+					</div>
+					<div class="signup-link">
+						<p>Not a member?<a href="#"> Signup now</a><p>
+					</div>
+					
+				</form>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>

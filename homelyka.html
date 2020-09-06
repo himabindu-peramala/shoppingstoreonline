@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LYKAA'S</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="C:\Users\Hima Bindu\Documents\New folder\websessions\login.html">
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<style type="text/css">
+		*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  background: rgb(31,30,30);
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: #f23434;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f23434;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+ /* background: #1b9bff;*/
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 600px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+@media (max-width: 760px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+section{
+  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
+  background-size: 100%;
+  height: calc(100vh - 80px);
+}
+/*----------------------------------------nav style ends---------------*/
+body{
+	margin:0;
+	padding: 0;
+	font-family:Poppins,Sans-serif;
+
+}
+.clearfix::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.{
+	box-sizing: border-box;
+}
+html{
+	font-size: 16px;
+
+}
+section{
+  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
+  background-size: 100%;
+  height: calc(100vh - 80px);
+}
+.mass{
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;padding-bottom: 100px;
+
+	background-image: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=);
+}
+.banner{
+	max-width: 1200px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 17%;
+	color:#fff;
+}
+.banner h3{
+	color: #f23434;
+	font-size: 1.4 rem;
+
+}
+.banner h1{
+	font-size: 2.5rem;
+	letter-spacing: 3px;
+	font-weight: 300;
+	margin-top:0;
+	top: 55%;
+	left: 50%;
+	box-sizing: border-box;
+
+}
+/*-------------------------------------home page ends------------------------------*/
+.productlist{
+	max-width: 1200px;
+	padding: 100px 15px;
+	
+	margin: 0 auto;
+
+
+}
+.productlist h1{
+	float:left;
+	font-weight: 500;
+	font-size: 2rem;
+	color:rgb(56,56,56);
+	
+}
+.productlist h4{
+	float: right;
+	color: #f23434;
+	font-weight: 700;
+}
+.productlist hr{
+	clear: both;
+	height: 1px;
+	background-color: rgb(219,214,214);
+	border: none
+
+}
+.productlist1{
+	width: 100%;
+	padding-top: 30px;
+	padding-left: 130px;
+
+}
+.productbox{
+	width: 26.5%;
+	float: left;
+	margin: 1%;
+	padding-bottom: 23px;
+	padding-top: 9px;
+	border:1px solid rgb(219,214,214);
+	box-shadow: 0 0 10px #000;
+}
+.pic1{
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+.productbox h2{
+	float:right;
+	padding-right: 5%;
+	color: rgb(71,70,70);
+}
+.productbox p{
+	clear:both;
+	padding: 0.5%;
+	color: rgb(122,120,120);
+	font-size: 1rem;
+	line-height: 25px;
+}
+.review{
+	float: right;
+	padding-right: 5%;
+	color: #f23434;
+	margin-top:10px;
+}
+/*-------------------------------------footer--------------------------------
+.blackfoot{
+	width: 100%;
+	padding:20px;
+	text-align: justify;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 40px;
+
+}---------*/
+.footer{
+	width: 100%;
+	/*background: #00121b;*/
+	display: block;
+
+}
+.inner-footer{
+	width: 100%;
+	margin:auto;
+	padding:30px 10px;
+	background: #00121b;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+.footitems{
+	width: 25%;
+	padding:10px 20px;
+	box-sizing: border-box;
+
+}
+.fh1{
+	padding:0px 0px;
+	padding-left: 22px;
+	font-size: 25px;
+	color: grey;
+	margin:10px 0;
+	text-transform: uppercase;
+}
+.footitems p{
+	font-size: 16px;
+	color: grey;
+	text-align: justify;
+	line-height: 25px;
+
+}
+.footitems ul{
+	list-style-type: none;
+}
+.o{
+	text-decoration:none;
+	outline:none;
+	transition: 0.3s;
+	color: grey;
+
+}
+.o:hover{
+	color:#ff9800;
+}
+.footitems i{
+	margin-right: 20px;
+
+}
+.footfoot{
+	padding:10px;
+	background:#f23434;
+	color:#fff;
+	font-size: 12px;
+	text-align: center;
+}
+/*.socialmed{
+	text-align: center;
+	width: 100%;
+}8*/
+.socialmed i{
+	height: 25px;
+	width: 25px;
+	margin: 15px 5px;
+	padding:18px;
+	
+	
+}
+/*----------------------------typing effec---------------------*/
+
+
+#typing{
+	animation: typingEffect 4s steps(40) 500ms 1 normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	position: absolute;
+
+}
+@keyframes typingEffect {
+	from{
+		width: 0;
+	}
+	to{
+		width: 15em;
+	}
+
+}
+/*---------------------------gotop----------------------------*/
+.gotop{
+	position:fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 90px;
+	right: 15px;
+	font-size: 34px;
+	color: #f23434;
+}
+
+/*-------------------------------media queries------------------------*/
+@media screen and (max-width: 1085px){
+	.footitems{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px){
+	.footitems{
+		width: 100%;
+		padding-left: 2px;
+	}
+	.footfoot{
+		padding-left: 10px;
+		float: left;
+		width: 66%;
+	}
+	.productbox{
+		width: 90%;
+		padding-left: 2px;
+		margin-bottom: 5%;
+		padding-bottom: 2px;
+
+	}
+	.productlist1{
+		width: 70%;
+		padding-left: 10%;
+		
+	}
+}
+
+
+	</style>
+
+</head>
+<body style="font-style:">
+	<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">LYKAA'S</label>
+      <ul>
+        <li><a class="active" href="C:\Users\Hima Bindu\Documents\New folder\websessions\homelyka.html">Home</a></li>
+        <li><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\products.html">Our Products</a></li>
+        <li><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\about.html">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\login.html">Login</a></li>
+      </ul>
+    </nav>
+	<!--<a name="login"></a>
+	<div class="center">
+		<input type="checkbox" id="show">
+		<label for="show" class="show-btn">Login<i class='fas fa-user-alt'></i></label>
+		<div class="container">
+			<label for="show" class="close-btn fas fa-times"></label>
+			<div class="text">Login form</div>
+				<form action="#">
+					<div class="data">
+						<label>Email or Phone</label>
+						<input type="text" required name="">
+						
+					</div>
+					<div class="data">
+						<label>Password</label>
+						<input type="Password" required name="">
+						
+					</div>
+					
+					<div class="forgotpw"><a href="">Forgot Password?</a></div>
+					<div class="btn">
+						<div class="inner">
+							
+						
+						<button type="submit">Login</button>
+					</div>
+					</div>
+					<div class="signup-link">
+						<p>Not a member?<a href="#"> Signup now</a><p>
+					</div>
+					
+				</form>
+				
+			</div>
+			
+		</div>
+		
+	</div>-->
+	<!--main page here...-->
+	<section>
+	<div class="mass">
+
+		<!--<nav class="navbar">
+			<div class="navcen">
+				<h1>LYKAA'S</h1>
+				<ul>
+					<li>
+						<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\projweb1.html" class="orange">Home</a>
+					</li>
+					<li>
+						<a href="#prodli" class="orange">Our products</a>
+					</li>
+					<li>
+						<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\about.html" class="orange">About us</a>
+					</li>
+					
+					<li>
+						<a href="#contact" class="orange">Contact us</a>
+					</li>
+					<li>
+						<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\login.html" class="orange">Login</a>
+					</li>
+				</ul>
+				<button class="icon"><span class="fa fa-bars nav-icon"></span></button>
+			</div>
+		</nav>-->
+		<div class="banner">
+			<h3 id="white">CHECK OUT</h3>
+			<h1 id="typing">NEW ARRIVALS ON SALE</h1>
+			<span class="fa fa-dots"></span>
+		</div>
+		
+	</div>
+</section>
+	<a name="prodli"></a>
+	<div class="productlist clearfix">
+		<h1>latest products</h1>
+		<br>
+
+		<h4>View All products</h4>
+		<hr>
+		<div class="productlist1">
+			<div class="productbox clearfix">
+			<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\denimlykaa.html"><img src="https://product.koovs.com/home-WW-2-xD828z.webp" alt="product" class="pic1"></a>
+				
+			</div>
+			<div class="productbox clearfix">
+				<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\shoeslyka.html"><img src="https://product.koovs.com/home-WW-5-IpfMpq.webp" alt="product" class="pic1"></a>
+				
+				
+			</div>
+			<div class="productbox clearfix"><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\dresseslyka.html"><img src="https://product.koovs.com/home-WW-3-CMAX8r.webp" alt="product" class="pic1"></a>
+				
+			</div>
+		</div>
+		<div class="productlist1 clearfix">
+			<div class="productbox">
+				<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\topslykaa.html"><img src="https://product.koovs.com/home-WW-4-61LLuH.webp" alt="product" class="pic1"></div>
+				
+			<div class="productbox clearfix"><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\accessorieslykaa.html"><img src="https://product.koovs.com/home-WW-1-fMFyat.webp" alt="product" class="pic1"></a></div>
+			<div class="productbox clearfix"><a href="C:\Users\Hima Bindu\Documents\New folder\websessions\jacketslykaa.html"><img src="https://product.koovs.com/home-MW-3-WXDGZU.webp" alt="product" class="pic1"></a></div>
+		</div>
+	</div>
+	<!------------------------------------------------about section --
+	<a name="about"></a>
+	<div class="about">
+		<h1>About Lykaa's</h1>
+		<hr>
+		<div class="lefty">
+			
+			<p>
+<span class="space">space giver</span>Our story began on the streets of New York and continues to draw inspiration from beautiful destinations around the world. We are really inspired by street style from across the globe and reflect that in our designs.  Be bold, be strong, be unapologetically YOU. We aim to build a community of women #Lykaa'sTribe that inspire and empower each other and help you feel your best.<br>
+
+<span class="space">space giver</span>We offer a variety of contemporary western wear , ranging from uber-chic dresses, stylish skirts, shirts, contemporary blouses, timeless tops to trendy glamorous jumpsuits, pants, cool shorts, edgy jackets, kimonos and super comfortable nightwear. We can even customize garments for you, according to your size specifications, if needed. Our prints are unique and created with love. Elevate your everyday with our timeless pieces.<br>
+
+<span class="space">space giver</span>Lykaa's is a store for buying women’s clothing online. It offers you many payment options, including credit and debit cards, netbanking, e-wallets as well as cash on delivery. We offer Free Shipping on all orders above $1500. We also offer return and exchange on most items – you can take a look at our return policy for more information. Shop online from the comfort of your home.<br>-->
+
+<!--So, when it’s about shopping women’s clothing online for yourself or for your loved ones, think Lykaa's. We go those extra miles to offer you a really great shopping experience.--></p>
+			<!--<ul class="feature">
+				<li>a</li>
+				<li>b</li>
+				<li>c</li>
+				<li>d</li>
+				<li>e</li>
+
+			</ul>
+			<button class="btn">Read more</button>--
+		</div>	
+		<div class="righty">-->
+			<!--<img src="mobiles.jpg" alt="mpb img" class="about-pic">--
+			<br><br><br><br>
+			<h1>LYKAA'S</h1>
+			<h2>- A fashion destination</h2>
+			<br><br><br><br>
+			
+		</div>	
+	</div>-->
+	
+	
+<a name="contact"></a>
+	<div class="blackfoot">
+		<p></p>
+	
+		<div class="footer">
+		<div class="inner-footer">
+			
+			
+			<div class="footitems">
+				<h1 class="fh1">quick links</h1>
+				<ul>
+					<li>
+						<a href="C:\Users\Hima Bindu\Documents\New folder\websessions\projweb1.html" class="o">Home</a>
+					</li>
+					<li>
+						<a href="#prodli" class="o">Our products</a>
+					</li>
+					<li>
+						<a href="#about" class="o">About us</a>
+					</li>
+					
+					<li>
+						<a href="#login" class="o">Login</a>
+					</li>
+				</ul>
+				
+				
+			</div>
+
+			<div class="footitems">
+				<h1 class="fh1">POLICIES</h1>
+				<ul>
+					<li>
+						<a href="" class="o">TERMS OF USE</a>
+					</li>
+					<li>
+						<a href="" class="o">PRIVACY</a>
+					</li>
+					<li>
+						<a href="a" class="o">DELIVERY</a>
+					</li>
+					<li>
+						<a href="a" class="o">EXCHANGES & RETURNS</a>
+					</li>
+					
+				</ul>
+					
+			</div>
+			<div class="footitems">
+				<h1 class="fh1">CUSTOMER</h1>
+				<ul>
+					<li>
+						<a href="" class="o">HELP/FAQ'S</a>
+					</li>
+					<li>
+						<a href="" class="o">SIZE GUIDE</a>
+					</li>
+					<li>
+						<a href="a" class="o">PLACES WE DELIVER</a>
+					</li>
+					<li>
+						<a href="a" class="o">HOW DO I PAY?</a>
+					</li>
+					<li>
+						<a href="a" class="o">HOW DO I SHOP?</a>
+					</li>
+					
+				</ul>
+					
+			</div>
+			
+			<div class="footitems">
+				<h1 class="fh1">REACH US</h1>
+				<ul>
+					<li>
+						<a href="" class="o"><i class="fas fa-map-marker"></i>LBS ROAD,ANDHERI WEST,MUMBAI.
+						</a>
+					</li>
+					<li>
+						<a href="" class="o"><i class="fas fa-phone"></i>6546832544</a>
+					</li>
+					<li>
+						<a href="a" class="o"><i class="fas fa-envelope"></i>lykaas@onlineclothestore.in</a>
+					</li>	
+				</ul>
+				<div class="socialmed">
+					<a href="https://www.facebook.com/" class="o"><i class='fab fa-facebook-f' style='font-size:24px'></i></a>
+						<a href="https://twitter.com/" class="o"><i class='fab fa-twitter' style='font-size:24px'></i></a>
+							<a href="https://www.instagram.com/" class="o"><i class='fab fa-instagram' style='font-size:24px'></i>
+						<a href="https://www.linkedin.com/" class="o"><i class='fab fa-linkedin-in' style="font-size:24px"></i></a>
+
+				</div>
+					
+			</div>
+
+		</div>
+		<a  class="gotop" href="#"><i class='fas fa-arrow-alt-circle-up'></i></a>
+
+		<div class="footfoot">
+			Copyright &copy;LYKAA'S.All rights reserved.	
+		</div>
+
+	</div>
+</div>
+
+
+</body>
+</html>
