@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Jackets</title>
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-	<style type="text/css">
-				*{
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <titlel>Jacketsyk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style type="text/css">
+      *{
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -17,7 +16,6 @@
   box-sizing: border-box;
 }
 body{
-
   font-family: montserrat;
 }
 nav{
@@ -64,6 +62,13 @@ a.active,a:hover{
 #check{
   display: none;
 }
+.gohome{
+  color: #f23434;
+  font-size: 34px;
+  margin-left: 5%;
+  margin-top:50%;
+
+}
 @media (max-width: 600px){
   .checkbtn{
     display: block;
@@ -72,7 +77,7 @@ a.active,a:hover{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #2c3e50;
+    background: #fff;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -93,14 +98,6 @@ a.active,a:hover{
     left: 0;
   }
 }
-.gohome{
-	color: #f23434;
-	font-size: 34px;
-	margin-left: 5%;
-	margin-top:50%;
-
-}
-
 @media (max-width: 760px){
   label.logo{
     font-size: 30px;
@@ -110,11 +107,6 @@ a.active,a:hover{
     font-size: 16px;
   }
 }
-/*section{
-  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
-  background-size: cover;
-  height: calc(100vh - 80px);
-}*/
 @media (max-width: 858px){
   .checkbtn{
     display: block;
@@ -123,7 +115,7 @@ a.active,a:hover{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #2c3e50;
+    background: #fff;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -144,74 +136,150 @@ a.active,a:hover{
     left: 0;
   }
 }
-/*section{
-  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
-  background-size: 100%;
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
   height: calc(100vh - 80px);
-}*/
-		/*-------------------------------------nav ends-------------------*/
-		.flex2{
-		display: flex;
-		flex-direction: row;
-		width: 98%;
-		border:1.5px solid #fff;
-		border-radius: 1px solid #ccc;
-		margin :0%;
-		margin-left: 1.5%;
-		padding: 1%;
-		box-shadow: 3px 3px 3px #fff;
-		size: 96%;
-		box-sizing: border-box;
-		
-	}
-	.sec1,.sec2,.sec3,.sec4{
-		color: #000;
-		width: 24%;
-		border:1px solid #ccc;
-		padding: 1%;
-		background-color: #f7f1e3 ;
-		font-size: 18px;
-		text-align: center;
-	}
-	.t1,.t2,.t3,.t4{
-		width: 24%;
-		border:1px solid #ccc;
-		padding: 1%;
-		background-color: #ECF0F0 ;
-		color: #000;
-		font-size: 18px;
-		text-align: center;
-	}
-	.img1 img{
-		width: 100%;
-	
-		border:1px #ccc;
-		border-style: ridge;
-	}
-	.img1{
-		border-radius: 30px;
-		border:2px #ccc;
+}
+/*-----------------------------------nav ends here----------------------*/
+.flex2{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    border:1.5px solid #fff;
+    border-radius: 1px solid #000;
+    margin :0%;
+    margin-left: 1.5%;
+    padding: 1%;
+    box-shadow: 3px 3px 3px #fff;
+    size: 96%;
+    box-sizing: border-box;
+    
+  }
+  .sec1,.sec2,.sec3,.sec4{
+    color: #000;
+    width: 24%;
+    border:1px solid #ccc;
+    padding: 1%;
+    background-color: #f7f1e3 ;
+    font-size: 18px;
+    text-align: center;
+  }
+  .img1 img{
+    width: 100%;
+  
+    border:1px #ccc;
+    border-style: ridge;
+  }
+  .img1{
+    border-radius: 30px;
+    border:2px #000;
+  }
+  .btn{
+    background-color: #f23434;
+    border-radius: 5%;
+    color: #fff;
+    font-size: 18px;
+    padding:2%;
+    border:none;
+  }
+  .btn:hover{
+    background-color: #fff;
+    color: #666;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  /*-------------------------mediaqueries---------------------*/
+  @media only screen and (min-width: 310px) and (max-width: 767px){
+  .flex2{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    padding:2%;
+    margin-left: 3%;
 
-	}
-	.btn{
-		background-color: #f23434;
-		border-radius: 5%;
-		color: #fff;
-		font-size: 18px;
-		padding:2%;
-		border:none;
-	}
-	.btn:hover{
-		background-color: #fff;
-		color: #666;
-		border: 1px solid #000;
-		cursor: pointer;
-	}
-		
-	</style>
-</head>
-<body>
-	<nav>
+  }
+  .sec1,.sec2,.sec3,.sec4{
+    width: 90%;
+    margin-left: 1%;
+      margin-right: 2%;
+      margin-top: 1%;
+    margin-bottom: 2%;
+   
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    height: 70%;
+ 
+    height: 70%;
+  }
+  .sec2,{
+    width: 90%;
+    margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 1%;
+    margin-bottom: 2%;
+    padding:1%;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    height: 70%;
+ 
+  }
+  .sec3,{
+    width: 90%;
+    margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 1%;
+    margin-bottom: 2%;
+    padding:1%;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    height: 70%;
+ 
+  }
+  .sec4{
+    width: 90%;
+    margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 1%;
+    margin-bottom: 2%;
+    padding:1%;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    height: 70%;
+   
+  }
+  .btn{
+    margin-top: 3%;
+    top: 60%;
+  }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+  .flex2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .sec1,.sec2,.sec3,.sec4{
+    width: 43.66%;
+    border:1px solid #000;
+    padding: 1%;
+    background-color: #f7f1e3 ;
+    color: #000;
+    font-size: 18px;
+    margin-top:1%;
+    text-align: center;
+  }
+
+    </style>
+  </head>
+  <body>
+    <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
@@ -225,53 +293,56 @@ a.active,a:hover{
         <li><a href="https://himabindu-peramala.github.io/shoppingstoreonline/loginform.html">Login</a></li>
       </ul>
     </nav>
-    <!--------------------------nav til here----------------->
-	<a  class="gohome" href="https://himabindu-peramala.github.io/shoppingstoreonline/ourproducts.html"><i class='fas fa-arrow-alt-circle-left'></i></a>
+    <!--<section></section>-->
+    <a  class="gohome" href="https://himabindu-peramala.github.io/shoppingstoreonline/ourproducts.html"><i class='fas fa-arrow-alt-circle-left'></i></a>
 
-  	<div class="flex2">
-  		<div class="sec1">
-  			<div class="img1">
-  				<img src="https://product.koovs.com/75253_a13b4ec40d8d446486ec12c0b2dff4c2_image1_super_zoom.webp"><h3><center><b>$899</b></center></h3><p>Funnel Neck Utility Jacket</p><br><button class="btn">Add to cart</button>
-  			</div>
-  		</div>
-  		<div class="sec2" style="margin-left: 1%">
-  			<div class="img1">
-  				<img src="https://product.koovs.com/113183_187931bef2e14c928721079f8d2e308c.webp"><h3><center><b>$919</b></center></h3><p>Quilted Panel Bomber Jacket</p><br><button class="btn">Add to cart</button>
-  			</div>
-  		</div>
-  		<div class="sec3" style="margin-left: 1%">
-  			<div class="img1">
-  				<img src="https://product.koovs.com/96339_0676f0f6783d527e27ee67b492e528a4.webp"><h3><center><b>$989</b></center></h3><p>Oversized Military Shirt Jacket</p><br><button class="btn">Add to cart</button>
-  			</div>
-  		</div>
-  		<div class="sec4" style="margin-left: 1%">
-  			<div class="img1">
-  				<img src="https://product.koovs.com/118111_1dbb3fa9713c1905464659acced4dac7.webp"><h3><center><b>$799</b></center></h3><p>Cape Style Casual Coat</p><br><button class="btn">Add to cart</button>
-  			</div>
-  		</div>
-  	</div>
-  	<div class="flex2">
-  		<div class="sec1">
-  			<div class="img1">
-  				<img src="https://product.koovs.com/100599_04623ab7f06f73efa7b2ac121d4fe538.webp"><h3><center><b>$879</b></center></h3><p>Lace Boxy Kimono</p><br><button class="btn">Add to cart</button>
-  			</div>
-  		</div>
-  		<div class="sec2" style="margin-left: 1%">
-  			<div class="img1">
-  				<img src="https://product.koovs.com/113896_6294dcdc7f2d206d0e1da2f547494fe3.webp"><h3><center><b>$959</b></center></h3><p>Long Line Coat With Zipper Detail</p><br><button class="btn">Add to cart</button>
-  			</div>
-  		</div>
-  		<div class="sec3" style="margin-left: 1%">
-  			<div class="img1">
-  				<img src="https://product.koovs.com/128655_9f65fae4a2dfe64ceb644f6dc65c5ef9.webp"><h3><center><b>$1399</b></center></h3><p>Jacquard Lace Sleeveless Jacket</p><br><button class="btn">Add to cart</button>
-  			</div>
-  		</div>
-  		<div class="sec4" style="margin-left: 1%">
-  			<div class="img1">
-  				<img src="https://product.koovs.com/128212_7752bf06c6f8895e40c5c924636875c1.webp"><h3><center><b>$1799</b></center></h3><p>Light-Wash Graffiti Print Denim Jacket</p><br><button class="btn">Add to cart</button>
-  			</div>
-  		</div>
-  	</div>
-
-</body>
+   <div class="flex2">
+      <div class="sec1">
+        <div class="img1">
+          <img src="https://product.koovs.com/75253_a13b4ec40d8d446486ec12c0b2dff4c2_image1_super_zoom.webp"><h3><center><b>$899</b></center></h3><p>Funnel Neck Utility Jacket</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec2" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/113183_187931bef2e14c928721079f8d2e308c.webp"><h3><center><b>$919</b></center></h3><p>Quilted Panel Bomber Jacket</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec3" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/96339_0676f0f6783d527e27ee67b492e528a4.webp"><h3><center><b>$989</b></center></h3><p>Oversized Military Shirt Jacket</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec4" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/118111_1dbb3fa9713c1905464659acced4dac7.webp"><h3><center><b>$799</b></center></h3><p>Cape Style Casual Coat</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="flex2">
+      <div class="sec1">
+        <div class="img1">
+          <img src="https://product.koovs.com/100599_04623ab7f06f73efa7b2ac121d4fe538.webp"><h3><center><b>$879</b></center></h3><p>Lace Boxy Kimono</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec2" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/113896_6294dcdc7f2d206d0e1da2f547494fe3.webp"><h3><center><b>$959</b></center></h3><p>Long Line Coat With Zipper Detail</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec3" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/128655_9f65fae4a2dfe64ceb644f6dc65c5ef9.webp"><h3><center><b>$1399</b></center></h3><p>Jacquard Lace Sleeveless Jacket</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec4" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/128212_7752bf06c6f8895e40c5c924636875c1.webp"><h3><center><b>$1799</b></center></h3><p>Light-Wash Graffiti Print Denim Jacket</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
+
+
+
