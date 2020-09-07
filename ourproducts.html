@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Our products</title>
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>products</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="C:\Users\Hima Bindu\Documents\New folder\websessions\login.html">
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -92,26 +99,6 @@ a.active,a:hover{
     left: 0;
   }
 }
-.gohome{
-	color: #f23434;
-	font-size: 34px;
-	margin-left: 5%;
-	margin-top:50%;
-
-}
-.productbox{
-		width: 90%;
-		padding-left: 2px;
-		margin-bottom: 5%;
-		padding-bottom: 2px;
-
-	}
-	.productlist1{
-		width: 70%;
-		padding-left: 10%;
-		
-	}
-
 @media (max-width: 760px){
   label.logo{
     font-size: 30px;
@@ -120,24 +107,12 @@ a.active,a:hover{
   nav ul li a{
     font-size: 16px;
   }
-  .productbox{
-		width: 90%;
-		padding-left: 2px;
-		margin-bottom: 5%;
-		padding-bottom: 2px;
-
-	}
-	.productlist1{
-		width: 70%;
-		padding-left: 10%;
-		
-	}
 }
-/*section{
+section{
   background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
-}*/
+}
 @media (max-width: 858px){
   .checkbtn{
     display: block;
@@ -146,7 +121,7 @@ a.active,a:hover{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #2c3e50;
+    background: #fff;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -167,15 +142,71 @@ a.active,a:hover{
     left: 0;
   }
 }
-/*section{
+section{
   background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
   background-size: 100%;
   height: calc(100vh - 80px);
-}*/
-		/*-------------------------------------nav ends-------------------*/
+}
+/*----------------------------------------nav style ends---------------*/
+body{
+	margin:0;
+	padding: 0;
+	font-family:Poppins,Sans-serif;
+
+}
+.clearfix::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.{
+	box-sizing: border-box;
+}
+html{
+	font-size: 16px;
+
+}
+section{
+  background: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=) no-repeat;
+  background-size: 100%;
+  height: calc(100vh - 80px);
+}
+.mass{
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;padding-bottom: 100px;
+
+	background-image: url(https://media.istockphoto.com/photos/its-an-add-to-cart-kinda-day-picture-id888019334?k=6&m=888019334&s=612x612&w=0&h=4QTYPr-6P5UHKHJI44AS7e4VxNhf5pI0ZIy20ib6YE4=);
+}
+.banner{
+	max-width: 1200px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 17%;
+	color:#fff;
+}
+.banner h3{
+	color: #f23434;
+	font-size: 1.4 rem;
+
+}
+.banner h1{
+	font-size: 2.5rem;
+	letter-spacing: 3px;
+	font-weight: 300;
+	margin-top:0;
+	top: 55%;
+	left: 50%;
+	box-sizing: border-box;
+
+}
+/*-------------------------------------home page ends------------------------------*/
 .productlist{
 	max-width: 1200px;
-	padding: 30px 15px;
+	padding: 100px 15px;
 	
 	margin: 0 auto;
 
@@ -202,7 +233,7 @@ a.active,a:hover{
 }
 .productlist1{
 	width: 100%;
-	padding-top: 10px;
+	padding-top: 30px;
 	padding-left: 130px;
 
 }
@@ -232,9 +263,199 @@ a.active,a:hover{
 	font-size: 1rem;
 	line-height: 25px;
 }
+.review{
+	float: right;
+	padding-right: 5%;
+	color: #f23434;
+	margin-top:10px;
+}
+/*-------------------------------------footer--------------------------------
+.blackfoot{
+	width: 100%;
+	padding:20px;
+	text-align: justify;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 40px;
+
+}---------*/
+.footer{
+	width: 100%;
+	/*background: #00121b;*/
+	display: block;
+
+}
+.inner-footer{
+	width: 100%;
+	margin:auto;
+	padding:30px 10px;
+	background: #00121b;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+.footitems{
+	width: 25%;
+	padding:10px 20px;
+	box-sizing: border-box;
+
+}
+.fh1{
+	padding:0px 0px;
+	padding-left: 22px;
+	font-size: 25px;
+	color: grey;
+	margin:10px 0;
+	text-transform: uppercase;
+}
+.footitems p{
+	font-size: 16px;
+	color: grey;
+	text-align: justify;
+	line-height: 25px;
+
+}
+.footitems ul{
+	list-style-type: none;
+}
+.o{
+	text-decoration:none;
+	outline:none;
+	transition: 0.3s;
+	color: grey;
+
+}
+.o:hover{
+	color:#ff9800;
+}
+.footitems i{
+	margin-right: 20px;
+
+}
+.footfoot{
+	padding:10px;
+	background:#f23434;
+	color:#fff;
+	font-size: 12px;
+	text-align: center;
+}
+/*.socialmed{
+	text-align: center;
+	width: 100%;
+}8*/
+.socialmed i{
+	height: 25px;
+	width: 25px;
+	margin: 15px 5px;
+	padding:18px;
+	
+	
+}
+/*----------------------------typing effec---------------------*/
+
+
+#typing{
+	animation: typingEffect 4s steps(40) 500ms 1 normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	position: absolute;
+
+}
+@keyframes typingEffect {
+	from{
+		width: 0;
+	}
+	to{
+		width: 15em;
+	}
+
+}
+/*---------------------------gotop----------------------------*/
+.gotop{
+	position:fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 90px;
+	right: 15px;
+	font-size: 34px;
+	color: #f23434;
+}
+
+/*-------------------------------media queries------------------------*/
+@media screen and (max-width: 1085px){
+	.footitems{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px){
+	#typing{
+	animation: typingEffect 4s steps(40) 500ms 1 normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	position:relative;
+	box-sizing: border-box;
+
+}
+@keyframes typingEffect {
+	from{
+		width: 0;
+	}
+	to{
+		width: 15em;
+	}
+
+}
+	.banner h1{
+		width: 70%;
+		padding-left: 0.2%;
+		font-size: 20px;
+		padding-top: 8px;
+	}
+	.banner h3{
+		padding-top:200px;
+	}
+	
+	.footitems{
+		width: 100%;
+		padding-left: 2px;
+	}
+	.gotop{
+		left:82%;
+	}
+	.inner-footer{
+		padding-left: 10px;
+    	float: left;
+    	width: 100%;
+	}
+	.footfoot{
+		padding-left: 10px;
+		float: left;
+		width: 100%;
+	}
+	.productbox{
+		width: 95%;
+		padding-left: 2px;
+		margin-bottom: 5%;
+		padding-bottom: 2px;
+
+	}
+	.productlist1{
+		width: 85%;
+		padding-left: 10%;
+		
+	}
+}
+
+
 	</style>
+
 </head>
-<body>
+<body style="font-style:">
 	<nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
@@ -249,36 +470,44 @@ a.active,a:hover{
         <li><a href="https://himabindu-peramala.github.io/shoppingstoreonline/loginform.html">Login</a></li>
       </ul>
     </nav>
-    <!--------------------------nav til here----------------->
-    <div class="productlist clearfix">
+	<a name="prodli"></a>
+	<div class="productlist clearfix">
 		<h1>latest products</h1>
-		<br>
-
-		<h4>View All products</h4>
 		<hr>
 		<div class="productlist1">
 			<div class="productbox clearfix">
-			<a href="deniml.html"><img src="https://product.koovs.com/home-WW-2-xD828z.webp" alt="product" class="pic1"></a>
+			<a href="https://himabindu-peramala.github.io/shoppingstoreonline/deniml.html"><img src="https://product.koovs.com/home-WW-2-xD828z.webp" alt="product" class="pic1"></a>
 				
 			</div>
 			<div class="productbox clearfix">
-				<a href="shoesl.html"><img src="https://product.koovs.com/home-WW-5-IpfMpq.webp" alt="product" class="pic1"></a>
+				<a href="https://himabindu-peramala.github.io/shoppingstoreonline/shoesl.html"><img src="https://product.koovs.com/home-WW-5-IpfMpq.webp" alt="product" class="pic1"></a>
 				
 				
 			</div>
-			<div class="productbox clearfix"><a href="dressesl.html"><img src="https://product.koovs.com/home-WW-3-CMAX8r.webp" alt="product" class="pic1"></a>
+			<div class="productbox clearfix"><a href="https://himabindu-peramala.github.io/shoppingstoreonline/dressesl.html"><img src="https://product.koovs.com/home-WW-3-CMAX8r.webp" alt="product" class="pic1"></a>
 				
 			</div>
 		</div>
 		<div class="productlist1 clearfix">
 			<div class="productbox">
-				<a href="topsl.html"><img src="https://product.koovs.com/home-WW-4-61LLuH.webp" alt="product" class="pic1"></div>
+				<a href="https://himabindu-peramala.github.io/shoppingstoreonline/topsl.html"><img src="https://product.koovs.com/home-WW-4-61LLuH.webp" alt="product" class="pic1"></div>
 				
-			<div class="productbox clearfix"><a href="accessoriesl.html"><img src="https://product.koovs.com/home-WW-1-fMFyat.webp" alt="product" class="pic1"></a></div>
-			<div class="productbox clearfix"><a href="jacketsl.html"><img src="https://product.koovs.com/home-MW-3-WXDGZU.webp" alt="product" class="pic1"></a></div>
+			<div class="productbox clearfix"><a href="https://himabindu-peramala.github.io/shoppingstoreonline/accessoriesl.html"><img src="https://product.koovs.com/home-WW-1-fMFyat.webp" alt="product" class="pic1"></a></div>
+			<div class="productbox clearfix"><a href="https://himabindu-peramala.github.io/shoppingstoreonline/jacketsl.html"><img src="https://product.koovs.com/home-MW-3-WXDGZU.webp" alt="product" class="pic1"></a></div>
 		</div>
 	</div>
+		<a  class="gotop" href="#"><i class='fas fa-arrow-alt-circle-up'></i></a>
+
+		<div class="footfoot">
+			Copyright &copy;LYKAA'S.All rights reserved.	
+		</div>
+
+	</div>
+</div>
 
 
 </body>
 </html>
+
+
+  
