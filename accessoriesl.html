@@ -1,4 +1,354 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <titlel>Accessoriessyk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style type="text/css">
+      *{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  background: rgb(31,30,30);
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: #f23434;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f23434;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+ /* background: #1b9bff;*/
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+.gohome{
+  color: #f23434;
+  font-size: 34px;
+  margin-left: 5%;
+  margin-top:50%;
+
+}
+@media (max-width: 600px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+@media (max-width: 760px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+/*-----------------------------------nav ends here----------------------*/
+.flex2{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    border:1.5px solid #fff;
+    border-radius: 1px solid #000;
+    margin :0%;
+    margin-left: 1.5%;
+    padding: 1%;
+    box-shadow: 3px 3px 3px #fff;
+    size: 96%;
+    box-sizing: border-box;
+    
+  }
+  .sec1,.sec2,.sec3,.sec4{
+    color: #000;
+    width: 24%;
+    border:1px solid #ccc;
+    padding: 1%;
+    background-color: #f7f1e3 ;
+    font-size: 18px;
+    text-align: center;
+  }
+  .img1 img{
+    width: 100%;
+  
+    border:1px #ccc;
+    border-style: ridge;
+  }
+  .img1{
+    border-radius: 30px;
+    border:2px #000;
+  }
+  .btn{
+    background-color: #f23434;
+    border-radius: 5%;
+    color: #fff;
+    font-size: 18px;
+    padding:2%;
+    border:none;
+  }
+  .btn:hover{
+    background-color: #fff;
+    color: #666;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  /*-------------------------mediaqueries---------------------*/
+  @media only screen and (min-width: 310px) and (max-width: 767px){
+  .flex2{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    padding:2%;
+    margin-left: 3%;
+
+  }
+  .sec1,.sec2,.sec3,.sec4{
+    width: 90%;
+    margin-left: 1%;
+      margin-right: 2%;
+      margin-top: 1%;
+    margin-bottom: 2%;
+   
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    height: 70%;
+ 
+    height: 70%;
+  }
+  .sec2,{
+    width: 90%;
+    margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 1%;
+    margin-bottom: 2%;
+    padding:1%;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    height: 70%;
+ 
+  }
+  .sec3,{
+    width: 90%;
+    margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 1%;
+    margin-bottom: 2%;
+    padding:1%;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    height: 70%;
+ 
+  }
+  .sec4{
+    width: 90%;
+    margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 1%;
+    margin-bottom: 2%;
+    padding:1%;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    height: 70%;
+   
+  }
+  .btn{
+    margin-top: 3%;
+    top: 60%;
+  }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+  .flex2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .sec1,.sec2,.sec3,.sec4{
+    width: 43.66%;
+    border:1px solid #000;
+    padding: 1%;
+    background-color: #f7f1e3 ;
+    color: #000;
+    font-size: 18px;
+    margin-top:1%;
+    text-align: center;
+  }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">LYKAA'S</label>
+      <ul>
+        <li><a class="active" href="https://himabindu-peramala.github.io/shoppingstoreonline/#">Home</a></li>
+        <li><a href="https://himabindu-peramala.github.io/shoppingstoreonline/ourproducts.html">Our Products</a></li>
+        <li><a href="https://himabindu-peramala.github.io/shoppingstoreonline/aboutus.html">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="https://himabindu-peramala.github.io/shoppingstoreonline/loginform.html">Login</a></li>
+      </ul>
+    </nav>
+    <!--<section></section>-->
+    <a  class="gohome" href="https://himabindu-peramala.github.io/shoppingstoreonline/ourproducts.html"><i class='fas fa-arrow-alt-circle-left'></i></a>
+
+   
+    <div class="flex2">
+      <div class="sec1">
+        <div class="img1">
+          <img src="https://product.koovs.com/84053_7ad13c9c18bd26c017dc7cdfcb9ec66d.webp"><h3><center><b>$299</b></center></h3><p>Metal Tattoo Chokers (Set Of 2)</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec2" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/117390_847bdc89e5dcadab7067c5e1cc90b81e.webp"><h3><center><b>$319</b></center></h3><p>Two-Way Sequin Clutch</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec3" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/125916_b043fb06c629cd233bab4e08e7b5ba24.webp"><h3><center><b>$489</b></center></h3><p>Crocskin Texture Belt</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec4" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/111990_25487a184ba75db5fd518365b2eff26c.webp"><h3><center><b>$299</b></center></h3><p>Gold Rimmed Cateye Sunglasses</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="flex2">
+      <div class="sec1">
+        <div class="img1">
+          <img src="https://product.koovs.com/83217_c951a38a67e63379dce2471e4cd32cb8.webp"><h3><center><b>$179</b></center></h3><p>Slogan Choker</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec2" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/119714_f67cafc00368f2a0224c6ab7d424c5f7.webp"><h3><center><b>$259</b></center></h3><p>Eyebrow Detail Cateye Sunglasses</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec3" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/133696_cc34248799b266b252b2408cad07207b.webp"><h3><center><b>$399</b></center></h3><p>Lion Hardware Detail Quilted Sling Bag</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="sec4" style="margin-left: 1%">
+        <div class="img1">
+          <img src="https://product.koovs.com/127490_5bf89c53d84f6a7bfe13ee07569649e0.webp"><h3><center><b>$299</b></center></h3><p>Diamante Embellished Drop Earrings</p><br><button class="btn">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+
+
+
+<!------<!DOCTYPE html>
 <html>
 <head>
 	<title>Accessories</title>
